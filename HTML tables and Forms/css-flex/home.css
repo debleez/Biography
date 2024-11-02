@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  margin: 20px;
+}
+
+.navlinks a {
+  text-decoration: none;
+  padding-right: 10px;
+  color: black;
+}
+
+.navbar .navlinks a:hover {
+  color: white;
+  background-color: green;
+}
+
+.navbar .logo:hover {
+  color: white;
+  background-color: green;
+}
